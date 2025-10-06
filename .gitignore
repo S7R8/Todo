@@ -113,8 +113,3 @@ docker-compose.override.yml
 *.cer
 *.p12
 *.pfx
-
-# Compiled Binary
-main
-server
-app
