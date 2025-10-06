@@ -1,0 +1,120 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.log
+
+# Frontend (React + Vite + Node.js)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+frontend/.env.development
+frontend/.cache/
+frontend/coverage/
+frontend/.nyc_output/
+frontend/*.tsbuildinfo
+frontend/.vite/
+frontend/.turbo/
+
+# Backend (Go)
+backend/*.exe
+backend/*.exe~
+backend/*.dll
+backend/*.so
+backend/*.dylib
+backend/*.test
+backend/*.out
+backend/go.work
+backend/__debug_bin*
+backend/tmp/
+backend/vendor/
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+webapp.sql
+
+# Log Files
+*.log
+webapp.log
+
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.development
+
+# Backup Files
+*.bak
+*.old
+*_old.*
+*_backup.*
+TodoDashboard_old.tsx
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Test Coverage
+coverage/
+*.cover
+*.coverprofile
+
+# Build Artifacts
+dist/
+build/
+out/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Package Manager Lock Files (optional - uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+# go.sum
+
+# Debug and Profiling
+*.pprof
+*.trace
+
+# Local Configuration
+config.local.ini
+config.local.yaml
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# Certificates and Keys
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# Compiled Binary
+main
+server
+app

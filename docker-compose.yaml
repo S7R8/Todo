@@ -1,0 +1,30 @@
+services:
+  web:
+    container_name: web
+    ports:
+      - "3000:3000"
+    build:
+      context: ./frontend/
+      dockerfile: Dockerfile
+    restart: always
+    tty: true
+    volumes:
+      - type: bind
+        source: ./frontend/todo
+        target: /usr/src/app
+    environment:
+      - WATCHPACK_POLLING=true
+    stdin_open: true
+  api:
+    container_name: api
+    ports:
+      - "8080:8080"
+    build:
+      context: ./
+      dockerfile: ./backend/Dockerfile
+    restart: always
+    tty: true
+    volumes:
+      - type: bind
+        source: ./backend/
+        target: /usr/src/app
